@@ -1,15 +1,6 @@
 (melange.emit
- (target output)
- (alias react)
- (libraries reason-react world)
- (modules :standard \ hello)
- (preprocess
-  (pps reactjs-jsx-ppx))
- (module_systems es6))
-
-(melange.emit
- (target node)
- (alias node)
+ (target app)
+ (alias app)
  (libraries world)
- (modules hello)
- (module_systems commonjs))
+ (modules main)
+ (module_systems es6))

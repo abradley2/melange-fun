@@ -11,6 +11,7 @@ depends: [
   "reason" {>= "3.8.1" & < "4.0.0"}
   "dune" {>= "3.8"}
   "melange" {>= "1.0.0"}
+  "ocamlformat" {>= "0.24.1" & < "0.25.0"}
   "ocaml-lsp-server" {dev}
   "dot-merlin-reader" {dev}
   "odoc" {with-doc}
